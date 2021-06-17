@@ -1,0 +1,22 @@
+ **Local Search algorithm**
+ 1. Mathematical problem formulation
+ 2. Initial solution generation
+ 3. Neighborhood construction
+ 4. Neighbor selection
+ 5. Move
+ 6. Termination criteria
+
+ **Problem Formulation**
+ 1. Decision Variable
+ 2. Constraints
+ 3. Objective 
+
+ **Neighborhood**
+1. Change-based neighborhood: N1(S) = {(sp1, . . . , spi’, . . . , spn)|spi’ ≠ spi , spi’ ∈ F }
+2. Swap-based neighborhood: N2(S) = {(sp1, . . . , sp¬i+j , . . . , spi , . . . , spn)|spi  ≠ spi+j ,1 ≤ i < i + j ≤ n}
+3. Split-based neighborhood: N3(S) = {S1, . . . , Si’ , . . . , Sn,, Sn+1}|Si’ = Si\{spk}, Sn+1 = Sn+1 ∪ {spk}, 0 < k < i, spk ∈ Si}
+4. Merge-based neighborhood: N4(S) = {S1, . . . , Si’ , . . . , Sj’ , . . . , Sn}|Si’ = Si \ Si, Sj’ = Sj ∪ Si, i ≠ j}
+5. Others: More households or zones
+
+
+
